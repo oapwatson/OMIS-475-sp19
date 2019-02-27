@@ -1,0 +1,13 @@
+
+
+    body {font-family:'Courier New', Courier, monospace;
+    background-color:lightgray;
+    color:darkgrey
+    }
+    a { text-decoration: none;
+    }
+    a:link { color:darkgrey
+    }
+    a:visited { color:mediumblue
+    }
+    a:hover { color:mintcream}
