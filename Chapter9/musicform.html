@@ -1,0 +1,78 @@
+<!DOCTyPE html>
+<html lang="en">
+<head>
+    <title>Music Survey</title>
+    <meta carset="utf-8">
+
+    <style>
+        #container {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 500px;
+
+    </style>
+
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <div id="containers">
+                    <h1>Music Survey</h1>
+                    <form method="get" action="URL">
+                        Name: <br />
+                        <input type="text" name="name" value="" size="20" /><br><br>
+                        
+                        Email: <br/>
+                        <input type="text" name="email" id="email"
+                        size="20">
+                        <br>
+                        <br>
+                        <fieldset>
+                        <legend>Select your favorite type of music</legend><br>
+                        <input type="radio" name="music" value="Pop">Pop <br>
+                        <input type="radio" name="music" value="Classical">Classical <br>
+                        <input type="radio" name="music" value="Rock">Rock <br>
+                        <input type="radio" name="music" value="Folk">Folk <br>
+                        <input type="radio" name="music" value="Rap">Rap <br>
+                        <input type="radio" name="music" value="Other">Other <br>
+                        </fieldset>
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Select how often you purchase music Cd's</legend>
+                            <input type="radio" name="time" value="Weekly">Weekly <br>
+                            <input type="radio" name="time" value="A few Cd's each year">A few Cd's each year <br>
+                            <input type="radio" name="time" value="Monthly">Monthly <br>
+                            <input type="radio" name="time" value="Never">Never <br>
+                        </fieldset>
+                        <br>
+                        Select the locations you listen to music:
+                        <br>
+                        <select name="place" size="3">
+                            <option>In the car</option>
+                            <option>Anywhere (MP3 Player)</option>
+                            <option>At the Park</option>
+                            </select><br>
+                            
+                            <br>
+                            What role does music play in your life?<br>
+                            <textarea name="music role" rows="3" cols="60"></textarea><br>
+                            <br>
+                            <input type="submit" value="Submit"
+                                    name="submit" />
+                            <input type="reset" value="Reset" name="reset"/>
+                        </select>
+
+                    </form>
+                    <p>
+                        If you have any questions, contact Jeremy Watson<br>
+                        Email: <a href=mailto:oapwatson78@gmail.com>oapwatson78@gmail.com</a>
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
