@@ -28,3 +28,8 @@ a:link {
   }
 
   body {color: rgb(179, 179, 179); }
+
+  body { background-image: url(Files/logo.png);
+    background-position: top;
+    background-repeat: repeat-x;
+   background-size: 4%;}
